@@ -34,7 +34,6 @@ class PrintCheck {
         resultStringToPrint += "\nTotal price with Discount:\n\(String(format: "%.2f", cart.totalPriceWithDiscount())) \(cart.products.first?.currency.rawValue ?? "")"
         
         resultStringToPrint += separatorLine + separatorLine
-        
         return resultStringToPrint
     }
 }

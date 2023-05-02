@@ -44,7 +44,6 @@ class Cart {
     func totalPriceWithDiscount() -> Double {
         let price = totalPrice()
         let result = price - (price * (Double(discountPercentValue()) / 100.0) )
-        
         return result
     }
 }
